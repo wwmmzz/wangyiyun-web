@@ -1,0 +1,568 @@
+body{
+    background: #f5f5f5;
+}
+ul{
+    margin: 0;
+}
+
+
+
+.s-fc0{
+    font-size: 12px;
+    color: #000;
+}
+
+.s-fc3{
+    font-size: 12px;
+    color: #666666;
+}
+
+.s-fc4{
+    font-size: 12px;
+    color: #999;
+}
+
+.line{
+    color: #c2c2c2;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.f-ff2 {
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+
+.f-fs1{
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.fst{
+    line-height: 70px;
+}
+
+.wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.login{
+    float: right;
+    color: #787878;
+    line-height: 70px;
+}
+
+.m-creator-center{
+    color: #787878;
+    float: right;
+    line-height: 70px;
+    margin-right: 10px;
+}
+
+.m-srch .parent{
+    background-color: #ccc;
+    width: 190px;
+    opacity: 1;
+    float: right;
+    margin-right: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 27px;
+    text-indent: 5px;
+    line-height: 16px; 
+}
+
+.m-srch .parent input{
+    background-color: #ccc;
+
+}
+
+.m-subnav{
+    background: #C20C0C;
+
+}
+
+.nav{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 180px;
+    box-sizing: border-box;
+}
+
+.nav li{
+    position: relative;
+    float: left;
+    /* height: 34px; */
+    text-align: center;
+    margin: 0 20px;
+    /* line-height: 34px; */
+    color: white;
+
+}
+
+.m-nav .icon-biaotou-zhengxu{
+    position: absolute;
+    left: 40px;
+    bottom: -61.5px;
+    line-height: 14px;
+    color: #C20C0C;
+}
+
+
+.nav li a{
+    display: block;
+    background: #9B0909;
+    border-radius: 11px;
+    font-size: 12px;
+    margin-top: 6px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.ban{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.ban-img{
+    width: 730px;
+    height: 285px;
+}
+
+.d-flag{
+    /* width: 100%; */
+    height: 285px;
+}
+
+.download{
+    width: 254px;
+    height: 285px;
+    position: absolute;
+    top: 0px;
+    left: 730px;
+    background: url(../image/download.png);
+}
+
+.ban .download .btn {
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    background-position: 0 9999px;
+    text-indent: -9999px;
+}
+
+.ban .download p {
+    margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+.bottom{
+    opacity: 0.5;
+    font-size: 12px;
+    color: #ccc;
+    background: #2e2e2e;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom a{
+
+    color: #ccc;
+    float: right;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.roller-flag, .roller-flag li{
+    float: left;
+}
+
+.n-myinfo .note {
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+}
+
+.n-myinfo .btn {
+    font-size: 12px;
+    border-radius: 5px;
+    background: #C20C0C;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #8a060b;
+}
+
+.f-fl{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.v-hd3 .more{
+    line-height: 24px;
+    float: right;
+}
+
+.cver{
+    float: left;
+}
+
+.n-hotdj {
+    margin: 20px 0 0 20px;
+}
+
+.n-hotdj li{
+    height: 40px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.n-hotdj .info{
+    float: left;
+    margin-left: 10px;
+    line-height: 20px;
+    line-height: 18px;
+    width: 180px;
+}
+
+.n-hotdj .info .icon-Vrenzheng{
+    color: #C20C0C;
+}
+
+
+
+.m-top {
+    position: relative;
+    /* z-index: 1000; */
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+}
+.m-top .wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.m-top .logo {
+    line-height: 70px;
+    float: left;
+    width: 176px;
+    height: 69px;
+    background: url(../image/topbar.png);
+    background-position: 0 0;
+}
+.m-nav {
+    float: left;
+}
+.m-nav li, .m-nav li span, .m-nav a, .m-nav a em {
+    position: relative;
+    float: left;
+    height: 70px;
+    font-size: 14px;
+}
+
+.m-subnav .nav li{
+    float: left;
+    height: 34px;
+    text-align: center;
+}
+
+.m-nav a {
+    float: left;
+    padding: 0 19px;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+}
+.g-mn{
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    overflow: hidden;
+}
+
+.g-wrap{
+    border-right: #e3e3e3 solid 2px;
+    float: left;
+    width: 730px;
+    padding: 20px 20px 40px;
+    box-sizing: border-box;
+}
+.g-wrap::after{
+    clear: both;
+}
+
+.m-cvrlst {
+    margin: 20px 0 0 -42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.m-cvrlst li {
+    width: 140px;
+    height: 204px;
+    padding: 0 0 30px 42px;
+    line-height: 1.4;
+}
+
+.m-cvrlst .s-fc0{
+    font-size: 14px;
+}
+
+.u-cover{
+    position: relative;
+}
+
+
+
+.n-disk .roll {
+    /* float: left; */
+    width: 645px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.click-flag{
+    position: absolute;
+}
+
+.n-disk .roll{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.n-disk .roll ul{
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 28px;
+    width: 645px;
+}
+
+.n-disk .roll ul li{
+    width: 100px;
+    overflow: hidden;
+    margin: 0 14px;
+    white-space: nowrap;
+}
+
+.u-cover .j-img{
+    width: 100px;
+}
+
+.n-bilst ol .no {
+    float: left;
+    text-align: center;
+    width: 35px;
+    height: 32px;
+}
+
+
+.v-hd2 {
+    height: 33px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+
+.v-hd2 .icon-stop-fill{
+    font-size: 20px;
+    color: #C20C0C;
+}
+
+.v-hd2 .icon-gengduo{
+    color: #C20C0C;
+}
+
+.n-disk {
+    position: relative;
+    zoom: 1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+}
+
+.n-bilst {
+    height: 472px;
+    margin-top: 20px;
+}
+
+.n-bilst .top{
+    height: 100px;
+    padding: 20px 0 0 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.n-bilst .top .tit{
+    flex: 1;
+}
+
+.n-bilst .top .btn{
+    padding-top: 10px;
+    display: flex;
+}
+
+.n-bilst .top span{
+    flex: 1;
+    font-size: 22px;
+}
+
+
+
+
+.n-bilst .blk {
+    float: left;
+    width: 228px;
+}
+
+
+.n-bilst li{
+    padding-left: 20px;
+    line-height: 32px;
+}
+
+.n-bilst .more a{
+    float: right;
+}
+
+.no{
+    font-size: 16px;
+}
+
+.n-bilst .nm{
+    font-size: 12px;
+}
+
+.g-ft {
+    position: relative;
+    height: 172px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+
+.m-ft {
+    line-height: 24px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.g-sd1 {
+    position: relative;
+    float: right;
+    width: 250px;
+    zoom: 1;
+    box-sizing: border-box;
+}
+.v-hd2 .tit {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.v-hd2 .tab {
+    float: left;
+    margin: 7px 0 0 20px;
+}
+.v-hd2 .more {
+    float: right;
+    margin-top: 9px;
+    _margin-top: 11px;
+}
+
+.n-enter li, .n-enter .itm {
+    float: left;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+    overflow: hidden;
+}
+
+.n-enter li{
+    margin-top: 14px;
+}
+
+.n-myinfo-1 {
+    height: 126px;
+    padding-top: 0;
+    background: linear-gradient( to top,#e3e3e3, #fcfcfc);
+    border: #fff solid 1.5px;
+    box-shadow: 0 3px #c9c9c9;
+}
+
+.n-singer {
+    margin-top: 15px;
+}
+
+.n-enter .head, .n-enter .head img {
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+
+.n-enter .ifo {
+    float: left;
+    width: 133px;
+    height: 60px;
+    padding-left: 14px;
+    border: 1px solid #e9e9e9;
+    border-left: none;
+    line-height: 31px;
+
+}
+.n-enter {
+    margin: 6px 0 14px 20px;
+    overflow: hidden;
+}
+
+
+.v-hd3 {
+    position: relative;
+    *zoom: 1;
+    height: 23px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+
+.u-btn2{
+    margin: 0 auto;
+    width: 210px;
+    height: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    border: #c9c9c9 solid 1px;
+    border-radius: 5px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    background: linear-gradient( to top,#eee, #fcfcfc);
+}
+
+.n-dj-1 {
+    margin-top: 30px;
+}
+
